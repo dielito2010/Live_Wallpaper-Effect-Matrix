@@ -50,7 +50,7 @@ class Effect {
 const effect = new Effect(canvas.width,canvas.height);
 let lastTime = 0;
 const fps = 60;
-const nextFrame = 500/fps;
+const nextFrame = 2000/fps;
 let timer = 0;
 
 function animate(timeStamp){
